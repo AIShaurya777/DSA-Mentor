@@ -6,7 +6,7 @@ function App() {
   async function checkBackend() {
     setMessage("Checking...");
     try {
-      const res = await fetch("http://127.0.0.1:8000/health");
+    const res = await fetch("http://localhost:8000/health");;
       const data = await res.json();
       setMessage(`Backend says: ${data.status}`);
     } catch (err) {
