@@ -7,8 +7,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://dsa-mentor-4mzi99of-dsa-mentor.vercel.app",
-        "https://dsa-mentor-pied.vercel.app",
+        "https://dsa-mentor-4520u8zn0-dsa-mentor.vercel.app",
     ],
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
