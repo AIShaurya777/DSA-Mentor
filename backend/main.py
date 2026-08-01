@@ -3,16 +3,14 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 
-origins = [
-    "https://dsa-mentor-pied.vercel.app",
-    "https://dsa-mentor-4mzi990f-dsa-mentor.vercel.app"
-]
-
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
+    allow_origins=[
+        "http://localhost:5173",
+        "https://dsa-mentor-4mzi99of-dsa-mentor.vercel.app",
+        "https://dsa-mentor-pied.vercel.app",
+    ],
+    allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
 
