@@ -1,8 +1,2 @@
-flask
-xgboost
-shap
-scikit-learn
-scipy
-numpy
-requests
-beautifulsoup4
+fastapi
+uvicorn
