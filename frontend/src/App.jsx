@@ -6,7 +6,7 @@ function App() {
   async function checkBackend() {
     setMessage("Checking...");
     try {
-    const res = await fetch("https://dsa-mentor-aev1.onrender.com/health");;
+    const res = await fetch("https://dsa-mentor-1gzf.onrender.com/health");;
       const data = await res.json();
       setMessage(`Backend says: ${data.status}`);
     } catch (err) {
