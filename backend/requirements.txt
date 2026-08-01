@@ -1,5 +1,6 @@
 flask
 xgboost
+shap
 scikit-learn
 scipy
 numpy
